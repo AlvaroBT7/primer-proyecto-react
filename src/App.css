@@ -1,0 +1,42 @@
+.main-container {
+  /* margin-top: 50px; */
+  width: 65vw;
+  text-align: center;
+}
+
+.title {
+  background-color: var(--task-container-background-color);
+  text-shadow: 0 0 20px var(--title-color);
+  color: var(--title-color);
+  padding: 35px 0;
+  border-radius: 2px;
+  font-size: 40px;
+  border-bottom: 1px solid #fff3;
+}
+
+.task-container {
+  background-color: var(--task-container-background-color);
+  padding: 25px;
+  border-radius: 2px;
+  border-bottom: 1px solid #fff3;
+  box-shadow: 0 0 35px 3px #0003;
+}
+
+.task-container * {
+  margin: 10px 0;
+  text-align: left;
+}
+
+/* .header {
+
+} */
+
+.task-title {
+  display: inline-block;
+  font-size: 23px;
+}
+
+.task-description {
+  font-size: 14px;
+  color: var(--color);
+}

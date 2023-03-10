@@ -1,0 +1,20 @@
+.header .icon {
+  margin-right: 20px;
+  padding: 5px;
+  position: relative;
+  top: 15px;
+  font-size: 35px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+.icon.green {
+  background-color: #0f0;
+  box-shadow: 0 0 35px 3px #0f05;
+}
+
+.icon.red {
+  background-color: #f00;
+  box-shadow: 0 0 35px 3px #f00a;
+}
